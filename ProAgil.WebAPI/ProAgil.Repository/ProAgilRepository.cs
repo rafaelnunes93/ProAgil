@@ -123,7 +123,7 @@ namespace ProAgil.Repository
             IQueryable<Palestrante> query = _context.Palestrantes
                .Include(c => c.RedeSociais);
 
-            if (includeEventos)
+            if (includeEventos) 
             {
                 query = query
                     .Include(pe => pe.PalestranteEventos)

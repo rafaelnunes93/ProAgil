@@ -7,6 +7,7 @@ export class Evento {
     constructor() { }
 
     id: number;
+    eventoId: number;
     local: string;
     dataEvento: Date;
     tema: string;
